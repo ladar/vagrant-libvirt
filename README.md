@@ -41,7 +41,7 @@ Locate a vagrant box containing the distribution you want to use at
 initialize.
 
 ```shell
-vagrant init fedora/32-cloud-base
+vagrant init fedora/36-cloud-base
 ```
 
 Then run following command:
@@ -94,7 +94,7 @@ Additionally if you wish to test against a specific version of vagrant you
 can control the version using the following before running the tests:
 
 ```shell
-export VAGRANT_VERSION=v2.2.14
+export VAGRANT_VERSION=v2.2.19
 bundle update && bundle exec rspec --fail-fast --color --format documentation
 ```
 
